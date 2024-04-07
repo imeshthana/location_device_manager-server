@@ -1,0 +1,23 @@
+{
+  "name": "location_device_manager-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "imesh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.3.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7"
+  }
+}
